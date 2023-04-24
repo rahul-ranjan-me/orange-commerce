@@ -1,0 +1,146 @@
+.header-container {
+  padding: 25px 0;
+  border-bottom: 1px solid #ececec;
+
+  .search {
+    position: relative;
+
+    .search-icon {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      cursor: pointer;
+    }
+
+    input {
+      border: 1px solid #f5f5f5;
+      background: #f5f5f5;
+      padding: 10px 15px;
+      border-radius: 30px;
+      width: 100%;
+    }
+  }
+
+  .logo-container {
+    line-height: 30px;
+    font-size: 30px;
+
+    a {
+      color: #333;
+    }
+
+    div {
+      display: inline-block;
+    }
+
+    .text {
+      font-size: 50px;
+      line-height: 49px;
+      font-weight: bold;
+    }
+
+    .maximum-height {
+      position: relative;
+      top: 10px;
+      margin-left: 5px;
+      color: #ff8103;
+    }
+
+    .horizontal-line {
+      &:first-child {
+        top: -17px;
+        position: relative;
+      }
+
+      border-bottom: 2px solid #ececec;
+      width: 100px;
+      display: inline-block;
+      line-height: 100px;
+      margin: 0 5px;
+    }
+  }
+
+  .right-component {
+    float: right;
+
+    i {
+      font-size: 29px;
+      position: relative;
+      top: 8px;
+    }
+
+    span {
+      border-radius: 46px;
+      width: 50px;
+      height: 50px;
+      border: 1px solid #ececec;
+      margin: 0 5px;
+      display: inline-block;
+    }
+
+    .cart-item {
+      position: relative;
+
+      b {
+        width: 20px;
+        height: 20px;
+        background-color: #ff0000;
+        border-radius: 30px;
+        position: absolute;
+        top: -8px;
+        color: #fff;
+        right: -2px;
+        font-size: 12px;
+        line-height: 19px;
+      }
+    }
+  }
+}
+
+.top-navigation {
+  .categories {
+    &.no-padding-left {
+      padding-left: 0;
+    }
+
+    .dropdown-toggle {
+      padding: 26px 30px 23px 45px !important;
+      color: #333;
+      background: #fafafa;
+      white-space: nowrap;
+      border-radius: 0;
+      width: 100%;
+      border: none;
+
+      &.show {
+        background: #ff8103;
+        color: #fff;
+      }
+    }
+  }
+
+  .top-nav-link {
+    align-self: center;
+
+    a {
+      color: #333;
+    }
+
+    a:hover {
+      color: #ff8103;
+      text-decoration: underline;
+    }
+
+    .dropdown-toggle::after {
+      color: #ff8103;
+    }
+  }
+
+  .right-component {
+    float: right;
+  }
+}
+
+.logout {
+  cursor: pointer;
+}
