@@ -1,5 +1,5 @@
 const properties = {
-  apiUrl: "http://localhost:3000/",
+  apiUrl: "/",
 }
 
 export default properties;
