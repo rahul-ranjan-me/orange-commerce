@@ -1,5 +1,8 @@
 # orange-commerce
 
+## Hosted on Vercel
+https://orange-commerce-f1bf7prze-rahul-ranjan-me.vercel.app/
+
 ## how to run
 - run `npm run start:app` and `npm run start:api` in two separate terminals
 - hit `http://localhost:3000` on your browser
