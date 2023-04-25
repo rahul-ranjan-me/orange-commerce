@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 import "./widgets.scss"
 
 const WidgetsData = [
-  "http://fastortheme.com/defaultnew/image/catalog/default_new/banner-01.jpg",
-  "http://fastortheme.com/defaultnew/image/catalog/default_new/banner-02.jpg",
-  "http://fastortheme.com/defaultnew/image/catalog/default_new/banner-03.jpg",
-  "http://fastortheme.com/defaultnew/image/catalog/default_new/banner-04.jpg",
-  "http://fastortheme.com/defaultnew/image/catalog/default_new/banner-05.jpg",
+  "/photos/banner-01.jpeg",
+  "/photos/banner-02.jpeg",
+  "/photos/banner-03.jpeg",
+  "/photos/banner-04.jpeg",
+  "/photos/banner-05.jpeg",
 ];
 
 const Widgets = () => {
